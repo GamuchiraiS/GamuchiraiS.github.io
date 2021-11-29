@@ -1,0 +1,328 @@
+/*For mobile*/
+@media (min-width: 320px) and (max-width: 480px) {	
+	html {
+		width: 100%;
+	}
+
+	body {
+		font-family: "Outfit", sans-serif;
+		background: hsl(217, 54%, 11%);
+	}
+	.main-container{
+		width: 320px;
+		height: 700px;
+		position: relative;
+		top: 30px;
+	}
+
+	.card {
+		margin: 0 auto;
+		position: relative;
+		padding-left: 20px;
+		background: hsl(216, 50%, 16%);
+		width: 280px;
+		height: 570px;
+		border-radius: 15px;
+		top: 30px;
+	}
+
+	.paragrapgh p{
+		margin-top: -15px;
+	}
+
+	.content{
+		margin-left: 5px;
+	}
+
+	.image-container img{
+		height: 250px;
+		width: 250px;
+		position: relative;
+		bottom: -10px;
+		border-radius: 10px;
+		top: 30px;
+	}
+
+	/*.image-container:hover img{
+	}*/
+
+	.description h5 {
+		font-size: 22px;
+		color: white;
+	}
+
+
+	.price {
+		width: 50%;
+		float: left;
+		position: relative;
+		top: -30px;
+	}
+
+	.price-text, .eth-icon, .time-limit-text, .clock{
+		display: inline-block;
+	}
+
+	.time-limit{
+		position: relative;
+		padding-left: 175px;
+		top: -30px;
+	}
+
+	.description p{
+		position: relative;
+		top: -20px;
+		color: hsl(0, 0%, 100%);
+		opacity: 0.5;
+	}
+
+	.price-text{
+		color: hsl(178, 100%, 50%);
+		position: relative;
+		top: -3px;
+		font-weight: 900;
+	}
+
+	.time-limit-text{
+		color: hsl(0, 0%, 100%);
+		position: relative;
+		top: -3px;
+		opacity: 0.5;
+	}
+
+	hr{
+		position: relative;
+		top: -30px;
+		left: -10px;
+		width: 90%;
+		color: hsl(0, 0%, 100%);
+		opacity: 0.2;
+	}
+
+	.creator-text, .creator-img{
+		display: inline-block;
+		position: relative;
+	}
+
+	.creator img{
+		position: relative;
+		height: 30px;
+		width: 30px;
+		border: 2px solid white;
+		border-radius: 50px;
+		top: -20px;
+	}
+
+	.creator-text{
+		top: -33px;
+		left: 20px;
+		color: hsl(0, 0%, 100%);
+	}
+
+	#opaque-text{
+		opacity: 0.5;
+	}
+
+	.title:hover h5{
+		color:  hsl(178, 100%, 50%);
+	}
+
+	#white-text:hover{
+		color:  hsl(178, 100%, 50%);
+	}
+
+	footer div {
+		position: fixed;
+	}
+}
+/*------------------------------------------------------------------------*/
+/* For desktop*/
+@media (min-width: 1280px) {
+	html {
+		width: 100%;
+		background: hsl(217, 54%, 11%);
+	}
+
+	body {
+		font-family: "Outfit", sans-serif;
+	}
+	/*.main-container{
+		background: hsl(217, 54%, 11%);
+	}*/
+
+	.content{
+		margin-left: 15px;
+	}
+
+	.card {
+		margin: 0 auto;
+		padding-left: 20px;
+		padding-top: 20px;
+		background: hsl(216, 50%, 16%);
+		width: 305px;
+		height: 550px;
+		border-radius: 15px;
+		position: relative;
+		top: 50px;
+	}
+
+	.paragrapgh p{
+		margin-top: -15px;
+	}
+
+	.image-container img{
+		height: 295px;
+		width: 295px;
+		position: relative;
+		right: 20px;
+		top: 5px;
+		border-radius: 10px;
+	}
+
+	.image-container:hover img{
+		background: url("images/icon-view.svg") no-repeat;
+		height: 295px;
+		width: 295px;
+	}
+
+	.description h5 {
+		font-size: 25px;
+		color: white;
+		position: relative;
+		top: -30px;
+		right: 20px;
+	}
+
+
+	.price {
+		width: 50%;
+		float: left;
+		position: relative;
+		top: -35px;
+	}
+
+	.price-text, .eth-icon, .time-limit-text, .clock{
+		display: inline-block;
+		position: relative;
+		top: -30px;
+	}
+
+	.price-text p{
+		position: relative;
+		top: -30px;
+	}
+
+	.time-limit-text p {
+		position: relative;
+		top: -30px;
+	}
+
+	.eth-icon{
+		position: relative;
+		right: 20px;
+	}
+
+	.time-limit{
+		position: relative;
+		padding-left: 180px;
+		top: -35px;
+	}
+
+	.description p{
+		position: relative;
+		top: -50px;
+		right: 20px;
+		color: hsl(0, 0%, 100%);
+		font-size: 18px;
+		opacity: 0.5;
+	}
+
+	.price-text{
+		color: hsl(178, 100%, 50%);
+		font-weight: 900;
+		position: relative;
+		top: -3px;
+		right: 10px;
+	}
+
+	.time-limit-text{
+		color: hsl(0, 0%, 100%);
+		position: relative;
+		top: -3px;
+		opacity: 0.5;
+	}
+
+	hr{
+		position: relative;
+		top: -70px;
+		left: -15px;
+		width: 90%;
+		color: hsl(0, 0%, 100%);
+		opacity: 0.2;
+	}
+
+	.creator-text, .creator-img{
+		display: inline-block;
+		position: relative;
+	}
+
+	.creator img{
+		position: relative;
+		height: 30px;
+		width: 30px;
+		border: 2px solid white;
+		border-radius: 50px;
+		top: -65px;
+		right: 20px;
+	}
+
+	.creator-text{
+		top: -75px;
+		left: 5px;
+		color: hsl(0, 0%, 100%);
+	}
+
+	#opaque-text{
+		opacity: 0.5;
+	}
+
+	.title:hover h5{
+		color:  hsl(178, 100%, 50%);
+	}
+
+	#white-text:hover{
+		color:  hsl(178, 100%, 50%);
+	}
+
+	.icon-overlay {
+		position: absolute;
+		top: 4.5%;
+        left: 4.5%;
+		height: 295px;
+		width: 295px;
+		opacity: 0;
+		transition: .3s ease;
+		background-color: hsl(178, 100%, 50%);
+		border-radius: 10px;
+	}
+
+	.image-container:hover .icon-overlay {
+  		opacity: 0.4;
+	}
+
+	.icon {
+		color: hsl(0, 0%, 100%);
+		font-size: 52px;
+		position: absolute;
+		top: 40%;
+        left: 50%;
+		transform: translate(-50%, -2%);
+		text-align: center;
+	}
+
+	footer div {
+		position: fixed;
+	}
+
+}
+
