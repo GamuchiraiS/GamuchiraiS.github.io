@@ -1,5 +1,5 @@
 /*For mobile*/
-@media (min-width: 320px) and (max-width: 480px) {	
+@media (min-width: 320px) and (max-width: 600px) {	
 	html {
 		width: 100%;
 	}
